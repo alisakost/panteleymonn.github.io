@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  color: #555;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+#header {
+  background-color: red;
+  height: 150px;
+  line-height: 150px;
+  margin-bottom: 60px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0px;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.post, .about, .buttons {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.post-author img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15mm;
+  vertical-align: middle;
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+.post-author span {
+  margin-left: 16px;
+  font-weight: bolder;
+}
+
+.post-date {
+  color: #D2D2D2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#footer {
+background-color: #2f2f2f;
+padding: 20px 0;
+margin-top: 60px;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+ #footer a {
+  color: red;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.buttons li {
+  padding: 10px;
+  display: inline;
+}
+
+#mimo {
+  margin-left: 220px;
+}
+
+
+
+a[href="https://getmimo.com"] {
+  width: 48px;
+  text-decoration: none;
+  background: red;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  border: 3px solid red;
+}
+
+a:hover[href="https://getmimo.com"] {
+  background-color: white;
+  color: red;
+}
+
+a:active[href="https://getmimo.com"] {
+  background: black;
+  color: white;
+  border: 3px solid black;
+}
+
+a[href="https://vk.com"] {
+  width: 89px;
+  text-decoration: none;
+  background: white;
+  font-weight: bold;
+  color: red;
+  padding: 20px;
+  border: 3px solid red;
+}
+
+a:hover[href="https://vk.com"] {
+  background-color: red;
+  color: white;
+}
+
+a:active[href="https://vk.com"] {
+  background: black;
+  color: white;
+  border: 3px solid black;
+}
+
+.about {
+  text-align: center;
+}
+
+.about img {
+  border-radius: 13mm;
+}
+.post-container:nth-child(even) {
+  background-color: #f3f3f3;
+}
